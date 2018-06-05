@@ -1,4 +1,4 @@
-package com.student;
+package com.basic;
 
 public class Student 
 {
