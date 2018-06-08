@@ -1,13 +1,15 @@
 package com.basic;
 
 public class Taxi extends Car{
+	int i=100;
 	public Taxi(){
 		System.out.println("Taxi cons empty");
 }
 	public Taxi(int i) {
 		this();
 		System.out.println("Taxi cons one args");
-	}@override
+	}
+@Override 
 	public void brake()
 	{
 	super.brake();
